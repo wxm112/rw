@@ -26,5 +26,5 @@ class Player
     end
     @last_health = warrior.health
   end
-end
 
+end
