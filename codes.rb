@@ -14,7 +14,7 @@ class Player
     if warrior.feel.wall?
       warrior.pivot!
     elsif warrior.feel.enemy?
-      warrior.attack! # comment just so we can push a change ...
+      warrior.attack!
     elsif is_health_low(warrior)
       if is_under_attack
         warrior.walk!(:backward)
